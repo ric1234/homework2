@@ -4,7 +4,7 @@
 #include "hw1.c"
 void main()
 {	
-	char strng[30];
+	char strng[100];
 	char rev;
 	char reverse(char * str, int length);	//declaration of function
 	printf("Enter the string:");
