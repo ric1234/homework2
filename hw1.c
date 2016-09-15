@@ -1,4 +1,4 @@
-#include "hw1.h"
+#include<stdio.h>
 char reverse(char * str, int length)
 {
 	char revs[100];
