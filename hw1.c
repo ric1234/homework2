@@ -3,13 +3,14 @@ char reverse(char * str, int length)
 {
 	char revs[100];
 	int var;
+	int i;
 	if(length>100)		//string is too long
 		return '1';
 	else if(str=="\0")	//Null string
 		return '1';
 	else
 		{	var= length;			//A variable used in reversing
-			for(int i=0; i<length; i++)	//Code for reversing
+			for(i=0; i<length; i++)	//Code for reversing
 			{
 				revs[i]=str[var-1];
 				var-=1;
